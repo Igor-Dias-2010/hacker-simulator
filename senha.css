@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.vt323-regular {
+    font-family: "VT323", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.share-tech-mono-regular {
+    font-family: "Share Tech Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+body {
+    display: grid;
+    place-items: center;
+    text-align: center;
+    background-image: url(hacker\ gif.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    overflow-x: hidden;
+}
+
+#senhas {
+    margin-top: 50px;
+    padding: 5px;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+#senhas li {
+    font-size: 30px;
+    margin-top: 10px;
+}

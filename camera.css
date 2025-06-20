@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.vt323-regular {
+  font-family: "VT323", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.share-tech-mono-regular {
+  font-family: "Share Tech Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+body {
+  display: grid;
+  place-items: center;
+  text-align: center;
+  background-image: url(hacker\ gif.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  overflow-x: hidden;
+}
+
+button {
+  width: 95px;
+  height: 65px;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 70px;
+  color: rgb(0, 190, 47);
+  background-color: black;
+  border: 2px solid white;
+  border-radius: 3px;
+  cursor: pointer;
+}
+h1 {
+  padding: 5px;
+  background-color: black;
+  border: 3px solid white;
+  border-radius: 5px;
+}
+#navbar button{
+  margin-top: 20px;
+}
+#sair{
+  width: 70px;
+  height: 50px;
+}
+#imagens{
+  margin-top: 50px;
+}
+#imagens figcaption{
+  padding: 3px;
+  background-color: black;
+  border: 2px solid white;
+  border-radius: 3px;
+  color: rgb(0, 190, 47);
+}
+#imagens img{
+  width: 120px;
+  height: 90px;
+  border: 2px solid white;
+  border-radius: 5px;
+  margin: 10px;
+}
+#camera{
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  gap: 20px;
+}
